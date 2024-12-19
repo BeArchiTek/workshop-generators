@@ -2,7 +2,7 @@ from infrahub_sdk.transforms import InfrahubTransform
 
 
 class DeviceCisco(InfrahubTransform):
-    query = "device_info2"
+    query = "device_info"
 
     async def transform(self, data):
         response = []
